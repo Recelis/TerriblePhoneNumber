@@ -1,0 +1,50 @@
+<!--
+TerribleInput.html
+Jacky Lui
+
+buttons with numbers hidden flying around screen
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="TerribleInput.css">
+    <title>Terrible Inputter</title>
+
+     <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./TerribleInput.js"></script>
+</head>
+<body>
+    <div class="jumbotron">
+        <div id = "Key0"><button id = "button0" onmousemove="hoverKey(0)" onmouseleave="hoverOff(0)">Press Me!</button></div>
+        <div id = "Key1"><button id = "button1" onmousemove="hoverKey(1)" onmouseleave="hoverOff(1)">Press Me!</button></div>
+        <div id = "Key2"><button id = "button2" onmousemove="hoverKey(2)" onmouseleave="hoverOff(2)">Press Me!</button></div>
+        <div id = "Key3"><button id = "button3" onmousemove="hoverKey(3)" onmouseleave="hoverOff(3)">Press Me!</button></div>
+        <div id = "Key4"><button id = "button4" onmousemove="hoverKey(4)" onmouseleave="hoverOff(4)">Press Me!</button></div>
+        <div id = "Key5"><button id = "button5" onmousemove="hoverKey(5)" onmouseleave="hoverOff(5)">Press Me!</button></div>
+        <div id = "Key6"><button id = "button6" onmousemove="hoverKey(6)" onmouseleave="hoverOff(6)">Press Me!</button></div>
+        <div id = "Key7"><button id = "button7" onmousemove="hoverKey(7)" onmouseleave="hoverOff(7)">Press Me!</button></div>
+        <div id = "Key8"><button id = "button8" onmousemove="hoverKey(8)" onmouseleave="hoverOff(8)">Press Me!</button></div>
+        <div id = "Key9"><button id = "button9" onmousemove="hoverKey(9)" onmouseleave="hoverOff(9)">Press Me!</button></div>
+        <div id = "Key10"><button id = "button10" onmousemove="hoverKey(10)" onmouseleave="hoverOff(10)">Press Me!</button></div>
+        <div id = "Key11"><button id = "button11" onmousemove="hoverKey(11)" onmouseleave="hoverOff(11)">Press Me!</button></div>
+        <div id = "Key12"><button id = "button12" onmousemove="hoverKey(12)" onmouseleave="hoverOff(12)">Press Me!</button></div>
+        <div id = "Key13"><button id = "button13" onmousemove="hoverKey(13)" onmouseleave="hoverOff(13)">Press Me!</button></div>
+        <duv id = "Key14"><button>Backspace</butotn></div>
+    </div>
+    <h2>the terrible phone number inputter</h2>
+    <form onsubmit="return submitting()"><input type=”text” required disabled="disabled" id = "form"> <input type="submit" value="Submit"></form>
+    <p>So bad that it's not created by Jacky Lui</p> 
+</body>
+</html>
