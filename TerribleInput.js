@@ -149,7 +149,7 @@ var phoneNumber = [];
 $(document).ready(function(){
     // variables
     var notAllNumbersInputted = true;        
-    var distance = 20;
+    var distance = 15;
     // get initial position and directions of buttons    
     var keyDirection = [];
     var keyPos = [];

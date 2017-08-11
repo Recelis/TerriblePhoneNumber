@@ -3,5 +3,39 @@
 .jumbotron { 
     min-height: 500px; 
     min-width:500px;
+    background-color: darkblue;
 }
 
+
+.title{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+}
+
+.content{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+}
+
+.submitButton{
+    font-family: 'Lato', sans-serif;
+    background-color:#00004d;
+    color:white;
+    border:solid goldenrod;
+    border-radius:10px;
+}
+
+.copyright{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+}
+
+.floatingButton{
+    font-family: 'Lato', sans-serif;
+    width: 100px;
+    height: 50px;
+    background-color:#00004d;
+    color:white;
+    border:solid goldenrod;
+    border-radius:10px;
+}

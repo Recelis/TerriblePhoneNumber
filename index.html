@@ -24,27 +24,28 @@ buttons with numbers hidden flying around screen
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="./TerribleInput.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
 </head>
 <body>
-    <div class="jumbotron">
-        <div id = "Key0"><button id = "button0" onmousemove="hoverKey(0)" onmouseleave="hoverOff(0)">Press Me!</button></div>
-        <div id = "Key1"><button id = "button1" onmousemove="hoverKey(1)" onmouseleave="hoverOff(1)">Press Me!</button></div>
-        <div id = "Key2"><button id = "button2" onmousemove="hoverKey(2)" onmouseleave="hoverOff(2)">Press Me!</button></div>
-        <div id = "Key3"><button id = "button3" onmousemove="hoverKey(3)" onmouseleave="hoverOff(3)">Press Me!</button></div>
-        <div id = "Key4"><button id = "button4" onmousemove="hoverKey(4)" onmouseleave="hoverOff(4)">Press Me!</button></div>
-        <div id = "Key5"><button id = "button5" onmousemove="hoverKey(5)" onmouseleave="hoverOff(5)">Press Me!</button></div>
-        <div id = "Key6"><button id = "button6" onmousemove="hoverKey(6)" onmouseleave="hoverOff(6)">Press Me!</button></div>
-        <div id = "Key7"><button id = "button7" onmousemove="hoverKey(7)" onmouseleave="hoverOff(7)">Press Me!</button></div>
-        <div id = "Key8"><button id = "button8" onmousemove="hoverKey(8)" onmouseleave="hoverOff(8)">Press Me!</button></div>
-        <div id = "Key9"><button id = "button9" onmousemove="hoverKey(9)" onmouseleave="hoverOff(9)">Press Me!</button></div>
-        <div id = "Key10"><button id = "button10" onmousemove="hoverKey(10)" onmouseleave="hoverOff(10)">Press Me!</button></div>
-        <div id = "Key11"><button id = "button11" onmousemove="hoverKey(11)" onmouseleave="hoverOff(11)">Press Me!</button></div>
-        <div id = "Key12"><button id = "button12" onmousemove="hoverKey(12)" onmouseleave="hoverOff(12)">Press Me!</button></div>
-        <div id = "Key13"><button id = "button13" onmousemove="hoverKey(13)" onmouseleave="hoverOff(13)">Press Me!</button></div>
-        <duv id = "Key14"><button>Backspace</butotn></div>
+    <div class="jumbotron" style="background-color: #1a1a1a !important">
+        <div id = "Key0"><button id = "button0" class = "floatingButton" onmousemove="hoverKey(0)" onmouseleave="hoverOff(0)">Press Me!</button></div>
+        <div id = "Key1"><button id = "button1" class = "floatingButton" onmousemove="hoverKey(1)" onmouseleave="hoverOff(1)">Press Me!</button></div>
+        <div id = "Key2"><button id = "button2" class = "floatingButton" onmousemove="hoverKey(2)" onmouseleave="hoverOff(2)">Press Me!</button></div>
+        <div id = "Key3"><button id = "button3" class = "floatingButton" onmousemove="hoverKey(3)" onmouseleave="hoverOff(3)">Press Me!</button></div>
+        <div id = "Key4"><button id = "button4" class = "floatingButton" onmousemove="hoverKey(4)" onmouseleave="hoverOff(4)">Press Me!</button></div>
+        <div id = "Key5"><button id = "button5" class = "floatingButton" onmousemove="hoverKey(5)" onmouseleave="hoverOff(5)">Press Me!</button></div>
+        <div id = "Key6"><button id = "button6" class = "floatingButton" onmousemove="hoverKey(6)" onmouseleave="hoverOff(6)">Press Me!</button></div>
+        <div id = "Key7"><button id = "button7" class = "floatingButton" onmousemove="hoverKey(7)" onmouseleave="hoverOff(7)">Press Me!</button></div>
+        <div id = "Key8"><button id = "button8" class = "floatingButton" onmousemove="hoverKey(8)" onmouseleave="hoverOff(8)">Press Me!</button></div>
+        <div id = "Key9"><button id = "button9" class = "floatingButton" onmousemove="hoverKey(9)" onmouseleave="hoverOff(9)">Press Me!</button></div>
+        <div id = "Key10"><button id = "button10" class = "floatingButton" onmousemove="hoverKey(10)" onmouseleave="hoverOff(10)">Press Me!</button></div>
+        <div id = "Key11"><button id = "button11" class = "floatingButton" onmousemove="hoverKey(11)" onmouseleave="hoverOff(11)">Press Me!</button></div>
+        <div id = "Key12"><button id = "button12" class = "floatingButton" onmousemove="hoverKey(12)" onmouseleave="hoverOff(12)">Press Me!</button></div>
+        <div id = "Key13"><button id = "button13" class = "floatingButton" onmousemove="hoverKey(13)" onmouseleave="hoverOff(13)">Press Me!</button></div>
+        <duv id = "Key14"><button class = "floatingButton">Backspace</button></div>
     </div>
-    <h2>the terrible phone number inputter</h2>
-    <form onsubmit="return submitting()"><input type=”text” required disabled="disabled" id = "form"> <input type="submit" value="Submit"></form>
-    <p>So bad that it's not created by Jacky Lui</p> 
+    <h2 class = "title">the terrible phone number inputter</h2>
+    <form class = "content" onsubmit="return submitting()"><input type=”text” required disabled="disabled" id = "form"> <input class = "submitButton" type="submit" value="Submit"></form>
+    <p class = "copyright">So bad that it's not created by Jacky Lui</p> 
 </body>
 </html>
