@@ -140,6 +140,7 @@ function pressKey(input){
 
 function submitting(){
     if (phoneNumber.length == 10) alert("submitting");
+    else if (phoneNumber.length >10) alert("too many numbers! Click on backspace!")
     else alert("need more numbers");
     return false;
 }
@@ -149,7 +150,7 @@ var phoneNumber = [];
 $(document).ready(function(){
     // variables
     var notAllNumbersInputted = true;        
-    var distance = 20;
+    var distance = 15;
     // get initial position and directions of buttons    
     var keyDirection = [];
     var keyPos = [];
@@ -173,7 +174,7 @@ $(document).ready(function(){
             keyDirection[ii] = keyInfo[1];
             if (phoneNumber.length >= 10) return phoneNumber;
         } 
-    }, 80);
+    }, 50);
 });
 
 function openWindow(){
