@@ -175,3 +175,7 @@ $(document).ready(function(){
         } 
     }, 80);
 });
+
+function openWindow(){
+    window.open("https://github.com/Recelis/TerriblePhoneNumber",'_blank');
+}
